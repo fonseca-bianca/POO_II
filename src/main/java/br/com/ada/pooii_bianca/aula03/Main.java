@@ -1,4 +1,4 @@
-package br.com.ada.pooii_bianca;
+package br.com.ada.pooii_bianca.aula03;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
