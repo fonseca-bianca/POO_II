@@ -18,9 +18,9 @@ public class Main {
         moto.frear();
         moto.desligar();
 
-        bicicleta.ligarMotorVeiculo();
+        //bicicleta NÃO precisa ligar e desligar, pois esses são atributos do VeiculoMotorizado
         bicicleta.acelerar(20);
         bicicleta.frear();
-        bicicleta.desligar();
+
     }
 }
