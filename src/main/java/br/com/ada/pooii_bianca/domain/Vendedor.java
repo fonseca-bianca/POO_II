@@ -1,6 +1,9 @@
-package br.com.ada.pooii_bianca.aula01;
+package br.com.ada.pooii_bianca.domain;
 
-public class Vendedor extends Funcionario implements Autentica{
+import br.com.ada.pooii_bianca.aula01.Autentica;
+import br.com.ada.pooii_bianca.domain.Funcionario;
+
+public class Vendedor extends Funcionario implements Autentica {
 
     private String senha;
 

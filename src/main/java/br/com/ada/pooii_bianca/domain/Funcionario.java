@@ -1,4 +1,4 @@
-package br.com.ada.pooii_bianca.aula01;
+package br.com.ada.pooii_bianca.domain;
 
 public abstract class Funcionario {
 
@@ -17,5 +17,13 @@ public abstract class Funcionario {
     }
 
     //método pra pegar o bônus do salário do funcionário
+    //public abstract double getBonus();
+    public String getNome(){
+        return nome;
+    }
+
+   // public Object getNome() {
+   // }
+
     public abstract double getBonus();
 }

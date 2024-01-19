@@ -1,6 +1,8 @@
 package br.com.ada.pooii_bianca.aula01;
 
 
+import br.com.ada.pooii_bianca.domain.Gerente;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -20,6 +22,9 @@ public class Main2 {
 
         List<Gerente> gerentes = new ArrayList<>();
 
+        //List<String> a = new LinkedList<>();
+        //ArrayList<String> b = new ArrayList<>();
+
         Gerente gerente1 = new Gerente("jorge", 1000);
         Gerente gerente2 = new Gerente("maria", 2000);
         Gerente gerente3 = new Gerente("eduarda", 1500);
@@ -34,6 +39,7 @@ public class Main2 {
 
         //.sort(): SOMENTE irá ordenar se houver um CONTRATO
         //no caso, da erro pq o .sort() NÃO sabe como querermos ordenar os elementos (por nome? por salário?)
+
         Collections.sort(gerentes);
         /**funcionou pq na classe Gerente incluímos:
          * public int compareTo(Gerente o) {

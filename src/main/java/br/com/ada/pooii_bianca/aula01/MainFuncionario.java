@@ -1,5 +1,9 @@
 package br.com.ada.pooii_bianca.aula01;
 
+import br.com.ada.pooii_bianca.domain.Funcionario;
+import br.com.ada.pooii_bianca.domain.Gerente;
+import br.com.ada.pooii_bianca.domain.Vendedor;
+
 public class MainFuncionario{
     public static void main(String[] args) {
 

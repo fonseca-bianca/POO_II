@@ -1,4 +1,4 @@
-package br.com.ada.pooii_bianca.aula01;
+package br.com.ada.pooii_bianca.domain;
 
 public class Gerente extends Funcionario implements Comparable<Gerente> {
 
