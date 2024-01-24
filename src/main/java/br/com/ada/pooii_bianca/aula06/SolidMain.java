@@ -3,15 +3,18 @@ package br.com.ada.pooii_bianca.aula06;
 public class SolidMain {
     public static void main(String[] args) {
 
-        // SOLID
+        // SOLID:
+        //aplicados a Linguagens Orientadas a Objetos
+        //deixam o código mais manutenível e MENOS acoplado
+
         // SRP -> Principio da responsabilidade unica (Single responsibility principle):
                 //Só altera se for só por 1 motivo
                     //Se tiver mais, então esse Princípio está sendo violado
 
         // OCP -> Principio do aberto e fechado (Open-Closed Principle):
-            	//Classe tem q ser aberta pra receber NOVAS implementações
+            	//Classe tem q ser aberta pra receber NOVAS implementações/comportamentos SEM precisar mexer nela
 		            //MAS NÃO pode alterar NADA nas novas implementações
-		            //Ex.:
+		            //aberto pra extensão, fechado pra modificação
 
         // LSP -> Principio da substituicao de liskov (Liskov substitution principle)
         // ISP -> Principio da segregacao de interfaces (Interface substitution principle)

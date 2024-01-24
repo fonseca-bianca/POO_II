@@ -4,3 +4,8 @@ package br.com.ada.pooii_bianca.aula06.exercicio;
 public class Item {
     /*...*/
 }
+
+//RECORD:
+//Java transforma Classe como Imutável
+//NÃO pode ser herdado
+//É constante (final)

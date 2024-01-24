@@ -2,7 +2,7 @@ package br.com.ada.pooii_bianca.aula06.exercicio;
 
 import java.util.List;
 
-//class Pedido:
+//class PedidoService:
 //a partir de agora, irá lidade SOMENTE com a lógica relacionada a ela
 //irá: calcular o total do pedido, adicionar e deletar itens do pedido
 public class Pedido {
